@@ -18,17 +18,17 @@
         </div>
         <nav>
             <ul>
-                 <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="notes.html">Notes</a></li>
                 <li><a href="pyqs.html">PYQs</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <h1 class="head">📚 Semester Textbooks</h1>
         <section class="section-1">
-            <a href="https://drive.google.com/drive/folders/1xZMGGiHyUllM2DzAaFVdmh1FHs5cyYL_?usp=drive_link"
-                download="1st Semester Textbooks">
+            <a href="#" class="textbook-link" data-sem="1" data-sem-name="1st Semester">
                 <div class="textbooks" data-sem="1">
                     1st
                     <br>
@@ -36,8 +36,7 @@
                 </div>
             </a>
 
-            <a href="https://drive.google.com/drive/folders/1pgGCOb5jEr9c6WKfsIPnVV9RvgL9LFQY?usp=drive_link"
-                download="2nd Semester Textbooks">
+            <a href="#" class="textbook-link" data-sem="2" data-sem-name="2nd Semester">
                 <div class="textbooks" data-sem="2">
                     2nd
                     <br>
@@ -45,8 +44,7 @@
                 </div>
             </a>
 
-            <a href="https://drive.google.com/drive/folders/1dq_vh1KDBNWh1_RsJ7KjwZKW61VM1UNh?usp=drive_link"
-                download="3rd Semester Textbooks">
+            <a href="#" class="textbook-link" data-sem="3" data-sem-name="3rd Semester">
                 <div class="textbooks" data-sem="3">
                     3rd
                     <br>
@@ -54,8 +52,7 @@
                 </div>
             </a>
 
-            <a href="https://drive.google.com/drive/folders/1p1rkwMiGNt4hwBLSb7wI-PupTZGsyZOR?usp=drive_link"
-                download="4th Semester Textbooks">
+            <a href="#" class="textbook-link" data-sem="4" data-sem-name="4th Semester">
                 <div class="textbooks" data-sem="4">
                     4th
                     <br>
@@ -63,8 +60,7 @@
                 </div>
             </a>
 
-            <a href="https://drive.google.com/drive/folders/1B-HMspYRJ4q5VW0hi2MXa6YbL52NUGcf?usp=drive_link"
-                download="5th Semester Textbooks">
+            <a href="#" class="textbook-link" data-sem="5" data-sem-name="5th Semester">
                 <div class="textbooks" data-sem="5">
                     5th
                     <br>
@@ -72,8 +68,7 @@
                 </div>
             </a>
 
-            <a href="https://drive.google.com/drive/folders/1UyLo_D6gZtMPUQ_-QIUJfwIQk-88HNny?usp=drive_link"
-                download="6th Semester Textbooks">
+            <a href="#" class="textbook-link" data-sem="6" data-sem-name="6th Semester">
                 <div class="textbooks" data-sem="6">
                     6th
                     <br>
@@ -86,7 +81,7 @@
             <div class="why-textbooks">
                 <h2>📖 Why Choose Our Textbook Collection?</h2>
                 <ul>
-                    <li>✔ Year-wise organized books</li>
+                    <li>✔ Simple & Easy Interface</li>
                     <li>✔ Semester-wise organized books</li>
                     <li>✔ Easy access anytime, anywhere</li>
                     <li>✔ Completely free resources</li>
@@ -96,64 +91,30 @@
     </main>
     <footer>
         <div class="social">
-            <a href="https://www.instagram.com/padhaee_official?utm_source=qr&igsh=MThmNXV6a2h2OWlkaw%3D%3D"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.facebook.com/share/1KPkxu3TEu/"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://youtube.com/@padhaee-official?si=JyBRbjzczS9wm9VI"><i class="fa-brands fa-youtube"></i></a>
-            <a href="https://x.com/PadhaeeOfficial?t=QFh5TYU51Q5cAG8EHhT3Gw&s=08"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="https://www.linkedin.com/in/padh-aee-25520a390?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/padhaee_official"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/share/1KPkxu3TEu/"><i class="fab fa-facebook"></i></a>
+            <a href="https://youtube.com/@padhaee-official"><i class="fab fa-youtube"></i></a>
+            <a href="https://x.com/PadhaeeOfficial"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/padh-aee-25520a390"><i class="fab fa-linkedin"></i></a>
         </div>
         <hr>
         <div class="copy">Copyright &copy; 2026 Padhaee | All Rights Reserved</div>
     </footer>
 
-    <script>
-        // Add ripple effect on textbook cards for better feedback
-        const textbookCards = document.querySelectorAll('.textbooks');
-        textbookCards.forEach(card => {
-            card.addEventListener('click', function(e) {
-                // Create ripple element
-                const ripple = document.createElement('span');
-                const rect = this.getBoundingClientRect();
-                const size = Math.max(rect.width, rect.height);
-                const x = e.clientX - rect.left - size / 2;
-                const y = e.clientY - rect.top - size / 2;
-                
-                ripple.style.width = ripple.style.height = `${size}px`;
-                ripple.style.left = `${x}px`;
-                ripple.style.top = `${y}px`;
-                ripple.classList.add('ripple-effect');
-                this.appendChild(ripple);
-                
-                setTimeout(() => {
-                    ripple.remove();
-                }, 500);
-            });
-            
-            // Add tooltip title for accessibility
-            const parentLink = card.closest('a');
-            if (parentLink) {
-                const semesterText = card.innerText.replace(/\n/g, ' ').trim();
-                parentLink.setAttribute('title', `Access ${semesterText} Textbooks`);
-            }
-        });
-        
-        // Add semester info in console
-        console.log("%c📚 Padhaee - Textbooks ready! Semester-wise resources loaded 🎓", "color: #3852B4; font-size: 14px; font-weight: bold;");
-        
-        // Optional: Add a subtle animation on page load
-        window.addEventListener('DOMContentLoaded', () => {
-            const cards = document.querySelectorAll('.textbooks');
-            cards.forEach((card, index) => {
-                card.style.opacity = '0';
-                card.style.transform = 'translateY(20px)';
-                setTimeout(() => {
-                    card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-                    card.style.opacity = '1';
-                    card.style.transform = 'translateY(0)';
-                }, index * 100);
-            });
-        });
-    </script>
+    <!-- Modal Popup -->
+    <div id="textbookModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Textbooks Index</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Subjects will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="./Script/textbooks.js"></script>
 </body>
 
 </html>
