@@ -16,11 +16,9 @@ body {
 
 /* Modern Header with Glassmorphism */
 header {
-    /* background: rgba(56, 82, 180, 0.95); */
     background:#FFC107;
     backdrop-filter: blur(8px);
     padding: 0.7rem 2rem;
-    /* color: white; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,7 +37,6 @@ header {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    /* background-color: #FFFFFF; */
 }
 
 .brand-img{
@@ -55,7 +52,6 @@ header {
     -webkit-background-clip: text;
     color: transparent;
     color:#1E2F4D;
-    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); */
 }
 
 nav ul {
