@@ -1,14 +1,25 @@
 // Chapter data for each subject with Google Drive links
         const chaptersData = {
+            "Quantitaive Aptitude": [
+                { name: "Unit 1: Number System Basics", link: "https://drive.google.com/file/d/1xTjK0ravjJ9lyZy4aX01R-dxvjtwE6YZ/view?usp=drive_link" },
+                { name: "Unit 2: PERCENTAGES,PROFIT AND LOSS", link: "https://drive.google.com/file/d/1glAu9_PmobJnMTUccLMuBRhvGtvNMdKw/view?usp=drive_link" },
+                { name: "Unit 3: SIMPLE INTEREST AND COMPOUND INTEREST", link: "https://drive.google.com/file/d/1lx_EbnnnR1vcMmscy4gL2E4o07BLed1T/view?usp=drive_link" },
+                { name: "Unit 4: RATIO ANDN PROPORTION, MIXTURES AND ALLIGATION", link: "https://drive.google.com/file/d/1ZVafsxQqm4F2RBn_Hmqhj2Ny7mKMpJAA/view?usp=drive_link" },
+                { name: "Unit 5: AVERAGES AND PROBLEMS ON AGES", link: "https://drive.google.com/file/d/1ihXSkjsV6QcugACpAxnvNuXcX3sK2DMO/view?usp=drive_link" },
+                { name: "Unit 6: TIME AND WORK,PIPES AND CISTERNS", link: "https://drive.google.com/file/d/117dRH3qfrc1-b_LQves4JnRkruIBd7qt/view?usp=drive_link" },
+                { name: "Unit 7: TIME,SPEED AND DISTANCE,PROBLEMS ON TRAINS", link: "https://drive.google.com/file/d/1rDWFw-qIAlA4qcoGEPT6iEncdneocEJY/view?usp=drive_link" },
+                { name: "Unit 8: PERMUTATION, COMBINATION AND PROBABILITY", link: "https://drive.google.com/file/d/1y9q2Xi3P5OM652_n8U6v4WTRbuojFXCC/view?usp=drive_link" }
+            ],
+
             "E-Commerce Technologies": [
-                { name: "Unit 1: Introduction", link: "https://drive.google.com/file/d/1VRG0VvID3Z_tDRS_LGtTFbiazcDYxuh5/view?usp=drive_link" },
-                { name: "Unit 2: Marketing", link: "https://drive.google.com/file/d/1Io6IIHd51F1awQGbl1SxbzX18ikOwDjj/view?usp=drive_link" },
-                { name: "Unit 3: Security", link: "https://drive.google.com/file/d/1cuUW8n43CMXLz07SQXV6RBn9wMpC1af0/view?usp=drive_link" },
-                { name: "Unit 4: Payment Systems", link: "https://drive.google.com/file/d/1QBIIHAz3VhRwBgb1AU5kgY9PNhsiKwJX/view?usp=drive_link" },
-                { name: "Unit 5: Customer Relationship Management (CRM)", link: "https://drive.google.com/file/d/15qAn9lMhh9gBqhCqVuRNxYWSJYxPsQcJ/view?usp=drive_link" },
-                { name: "Unit 6: Supply Chain Management (SCM)", link: "https://drive.google.com/file/d/1BPwQvVPBw6X7IRwgp_3VbT10DUdFjwrB/view?usp=drive_link" },
-                { name: "Unit 7: Strategy", link: "https://drive.google.com/file/d/1J_PlrVp3-VP8pm22dEhBMDRuXK-gu9H6/view?usp=drive_link" },
-                { name: "Unit 8: Mobile Commerce (M-Commerce)", link: "https://drive.google.com/file/d/1OUxBmzxyCS-dc3BYWdu3eOUEHlxcB5GS/view?usp=drive_link" }
+                { name: "Unit 1: Introduction", link: "https://drive.google.com/file/d/10vJXbdMTxm_ZhWKfES2WWcT5FrhjCFu0/view?usp=drive_link" },
+                { name: "Unit 2: Marketing", link: "https://drive.google.com/file/d/1W4XsstpjgAURf0bEQr9tiEiSSTP07oxU/view?usp=drive_link" },
+                { name: "Unit 3: Security", link: "https://drive.google.com/file/d/1LrnOPRWCEdoC0a5cAJNtwQyL_zUa9xrp/view?usp=drive_link" },
+                { name: "Unit 4: Payment Systems", link: "https://drive.google.com/file/d/1sAtCajHGkA4aG0JC4U79B83tv3EMyiqe/view?usp=drive_link" },
+                { name: "Unit 5: Customer Relationship Management (CRM)", link: "https://drive.google.com/file/d/1Lz_ssL1lJzFGLSHwtobhq1pATOY28tec/view?usp=drive_link" },
+                { name: "Unit 6: Supply Chain Management (SCM)", link: "https://drive.google.com/file/d/1I1Z6zqo9Y1lbFrclztaKEw2K1kzSWOWz/view?usp=drive_link" },
+                { name: "Unit 7: Strategy", link: "https://drive.google.com/file/d/175boTqIuuFXxFtKUfhiUHU40XRFwqqE-/view?usp=drive_link" },
+                { name: "Unit 8: Mobile Commerce (M-Commerce)", link: "https://drive.google.com/file/d/15WR7nsatU76YMnm0nbGfx0WEuTY6fhmw/view?usp=drive_link" }
             ],
 
             "Advance Java": [
